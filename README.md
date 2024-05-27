@@ -1,2 +1,2 @@
 # dudego
-ASP.NET CORE aplication web with razor pages
+aplicacion asp.net core aplication web (razor pages)

@@ -1,0 +1,48 @@
+﻿@page
+@model dudego.Pages.TbBranch.IndexModel
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-page="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.TbBranch[0].NameBranch)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TbBranch[0].Address)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TbBranch[0].PhoneNumberBranch)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.TbBranch) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.NameBranch)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Address)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PhoneNumberBranch)
+            </td>
+            <td>
+                <a asp-page="./Edit" asp-route-id="@item.IdBranch">Edit</a> |
+                <a asp-page="./Details" asp-route-id="@item.IdBranch">Details</a> |
+                <a asp-page="./Delete" asp-route-id="@item.IdBranch">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
