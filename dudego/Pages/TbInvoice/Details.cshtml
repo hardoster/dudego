@@ -1,0 +1,43 @@
+﻿@page
+@model dudego.Pages.TbInvoice.DetailsModel
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>TbInvoice</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.TbInvoice.InvoiceNumber)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.TbInvoice.InvoiceNumber)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.TbInvoice.IdBranchNavigation)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.TbInvoice.IdBranchNavigation.IdBranch)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.TbInvoice.IdCustomerNavigation)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.TbInvoice.IdCustomerNavigation.IdCustomer)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.TbInvoice.IdSalespersonNavigation)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.TbInvoice.IdSalespersonNavigation.IdSalesperson)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-page="./Edit" asp-route-id="@Model.TbInvoice.IdInvoice">Edit</a> |
+    <a asp-page="./Index">Back to List</a>
+</div>

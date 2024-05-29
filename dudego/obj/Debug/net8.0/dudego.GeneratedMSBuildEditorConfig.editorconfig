@@ -17,59 +17,159 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = dudego
 build_property.RootNamespace = dudego
-build_property.ProjectDir = C:\Users\OPERADORGPS\source\repos\dudego2\dudego\
+build_property.ProjectDir = C:\Users\OPERADORGPS\source\repos\dudego\dudego\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\OPERADORGPS\source\repos\dudego2\dudego
+build_property.MSBuildProjectDirectory = C:\Users\OPERADORGPS\source\repos\dudego\dudego
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/OPERADORGPS/source/repos/dudego2/dudego/Pages/Error.cshtml]
+[C:/Users/OPERADORGPS/source/repos/dudego/dudego/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/OPERADORGPS/source/repos/dudego2/dudego/Pages/Index.cshtml]
+[C:/Users/OPERADORGPS/source/repos/dudego/dudego/Pages/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/OPERADORGPS/source/repos/dudego2/dudego/Pages/Privacy.cshtml]
+[C:/Users/OPERADORGPS/source/repos/dudego/dudego/Pages/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/OPERADORGPS/source/repos/dudego2/dudego/Pages/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/OPERADORGPS/source/repos/dudego/dudego/Pages/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/OPERADORGPS/source/repos/dudego2/dudego/Pages/TbBranch/Create.cshtml]
+[C:/Users/OPERADORGPS/source/repos/dudego/dudego/Pages/TbBranch/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGJCcmFuY2hcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/OPERADORGPS/source/repos/dudego2/dudego/Pages/TbBranch/Delete.cshtml]
+[C:/Users/OPERADORGPS/source/repos/dudego/dudego/Pages/TbBranch/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGJCcmFuY2hcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/OPERADORGPS/source/repos/dudego2/dudego/Pages/TbBranch/Details.cshtml]
+[C:/Users/OPERADORGPS/source/repos/dudego/dudego/Pages/TbBranch/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGJCcmFuY2hcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/OPERADORGPS/source/repos/dudego2/dudego/Pages/TbBranch/Edit.cshtml]
+[C:/Users/OPERADORGPS/source/repos/dudego/dudego/Pages/TbBranch/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGJCcmFuY2hcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/OPERADORGPS/source/repos/dudego2/dudego/Pages/TbBranch/Index.cshtml]
+[C:/Users/OPERADORGPS/source/repos/dudego/dudego/Pages/TbBranch/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGJCcmFuY2hcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/OPERADORGPS/source/repos/dudego2/dudego/Pages/_ViewImports.cshtml]
+[C:/Users/OPERADORGPS/source/repos/dudego/dudego/Pages/TbCar/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGJDYXJcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/OPERADORGPS/source/repos/dudego/dudego/Pages/TbCar/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGJDYXJcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/OPERADORGPS/source/repos/dudego/dudego/Pages/TbCar/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGJDYXJcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/OPERADORGPS/source/repos/dudego/dudego/Pages/TbCar/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGJDYXJcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/OPERADORGPS/source/repos/dudego/dudego/Pages/TbCar/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGJDYXJcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/OPERADORGPS/source/repos/dudego/dudego/Pages/TbCustomer/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGJDdXN0b21lclxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/OPERADORGPS/source/repos/dudego/dudego/Pages/TbCustomer/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGJDdXN0b21lclxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/OPERADORGPS/source/repos/dudego/dudego/Pages/TbCustomer/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGJDdXN0b21lclxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/OPERADORGPS/source/repos/dudego/dudego/Pages/TbCustomer/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGJDdXN0b21lclxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/OPERADORGPS/source/repos/dudego/dudego/Pages/TbCustomer/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGJDdXN0b21lclxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/OPERADORGPS/source/repos/dudego/dudego/Pages/TbInvoiceDetails/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGJJbnZvaWNlRGV0YWlsc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/OPERADORGPS/source/repos/dudego/dudego/Pages/TbInvoiceDetails/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGJJbnZvaWNlRGV0YWlsc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/OPERADORGPS/source/repos/dudego/dudego/Pages/TbInvoiceDetails/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGJJbnZvaWNlRGV0YWlsc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/OPERADORGPS/source/repos/dudego/dudego/Pages/TbInvoiceDetails/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGJJbnZvaWNlRGV0YWlsc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/OPERADORGPS/source/repos/dudego/dudego/Pages/TbInvoiceDetails/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGJJbnZvaWNlRGV0YWlsc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/OPERADORGPS/source/repos/dudego/dudego/Pages/TbInvoice/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGJJbnZvaWNlXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/OPERADORGPS/source/repos/dudego/dudego/Pages/TbInvoice/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGJJbnZvaWNlXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/OPERADORGPS/source/repos/dudego/dudego/Pages/TbInvoice/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGJJbnZvaWNlXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/OPERADORGPS/source/repos/dudego/dudego/Pages/TbInvoice/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGJJbnZvaWNlXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/OPERADORGPS/source/repos/dudego/dudego/Pages/TbInvoice/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGJJbnZvaWNlXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/OPERADORGPS/source/repos/dudego/dudego/Pages/TbSalesperson/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGJTYWxlc3BlcnNvblxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/OPERADORGPS/source/repos/dudego/dudego/Pages/TbSalesperson/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGJTYWxlc3BlcnNvblxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/OPERADORGPS/source/repos/dudego/dudego/Pages/TbSalesperson/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGJTYWxlc3BlcnNvblxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/OPERADORGPS/source/repos/dudego/dudego/Pages/TbSalesperson/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGJTYWxlc3BlcnNvblxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/OPERADORGPS/source/repos/dudego/dudego/Pages/TbSalesperson/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGJTYWxlc3BlcnNvblxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/OPERADORGPS/source/repos/dudego/dudego/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/OPERADORGPS/source/repos/dudego2/dudego/Pages/_ViewStart.cshtml]
+[C:/Users/OPERADORGPS/source/repos/dudego/dudego/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/OPERADORGPS/source/repos/dudego2/dudego/Pages/Shared/_Layout.cshtml]
+[C:/Users/OPERADORGPS/source/repos/dudego/dudego/Pages/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-stwr1yo7pd

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "5y8XedHOMgFVg8mo3+6hKF1VfZDnrYexSgaUtyczx9sVYUwFYF8JkZzf1RIF3+HYwRjroW+J9FJW5NMlbbJY3w==",
+  "dgSpecHash": "vdQOX2NdBwYn1XOOFxBF1VBRB8p9wibk5WSevCAv0e78FnRwRJL7xpY8EdF1OdgzlayG7PiBfvK4OFs4SBY0sg==",
   "success": true,
   "projectFilePath": "C:\\Users\\OPERADORGPS\\source\\repos\\dudego\\dudego\\dudego.csproj",
   "expectedPackageFiles": [
@@ -55,6 +55,7 @@
     "C:\\Users\\OPERADORGPS\\.nuget\\packages\\humanizer.core.zh-hans\\2.14.1\\humanizer.core.zh-hans.2.14.1.nupkg.sha512",
     "C:\\Users\\OPERADORGPS\\.nuget\\packages\\humanizer.core.zh-hant\\2.14.1\\humanizer.core.zh-hant.2.14.1.nupkg.sha512",
     "C:\\Users\\OPERADORGPS\\.nuget\\packages\\microsoft.aspnetcore.razor.language\\6.0.24\\microsoft.aspnetcore.razor.language.6.0.24.nupkg.sha512",
+    "C:\\Users\\OPERADORGPS\\.nuget\\packages\\microsoft.aspnetcore.spaservices.extensions\\6.0.1\\microsoft.aspnetcore.spaservices.extensions.6.0.1.nupkg.sha512",
     "C:\\Users\\OPERADORGPS\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\7.0.0\\microsoft.bcl.asyncinterfaces.7.0.0.nupkg.sha512",
     "C:\\Users\\OPERADORGPS\\.nuget\\packages\\microsoft.build\\17.8.3\\microsoft.build.17.8.3.nupkg.sha512",
     "C:\\Users\\OPERADORGPS\\.nuget\\packages\\microsoft.build.framework\\17.8.3\\microsoft.build.framework.17.8.3.nupkg.sha512",
@@ -83,6 +84,9 @@
     "C:\\Users\\OPERADORGPS\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\8.0.0\\microsoft.extensions.dependencyinjection.8.0.0.nupkg.sha512",
     "C:\\Users\\OPERADORGPS\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
     "C:\\Users\\OPERADORGPS\\.nuget\\packages\\microsoft.extensions.dependencymodel\\8.0.0\\microsoft.extensions.dependencymodel.8.0.0.nupkg.sha512",
+    "C:\\Users\\OPERADORGPS\\.nuget\\packages\\microsoft.extensions.fileproviders.abstractions\\6.0.0\\microsoft.extensions.fileproviders.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\OPERADORGPS\\.nuget\\packages\\microsoft.extensions.fileproviders.physical\\6.0.0\\microsoft.extensions.fileproviders.physical.6.0.0.nupkg.sha512",
+    "C:\\Users\\OPERADORGPS\\.nuget\\packages\\microsoft.extensions.filesystemglobbing\\6.0.0\\microsoft.extensions.filesystemglobbing.6.0.0.nupkg.sha512",
     "C:\\Users\\OPERADORGPS\\.nuget\\packages\\microsoft.extensions.logging\\8.0.0\\microsoft.extensions.logging.8.0.0.nupkg.sha512",
     "C:\\Users\\OPERADORGPS\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.0\\microsoft.extensions.logging.abstractions.8.0.0.nupkg.sha512",
     "C:\\Users\\OPERADORGPS\\.nuget\\packages\\microsoft.extensions.options\\8.0.0\\microsoft.extensions.options.8.0.0.nupkg.sha512",
@@ -132,7 +136,8 @@
     "C:\\Users\\OPERADORGPS\\.nuget\\packages\\system.text.encodings.web\\8.0.0\\system.text.encodings.web.8.0.0.nupkg.sha512",
     "C:\\Users\\OPERADORGPS\\.nuget\\packages\\system.text.json\\8.0.0\\system.text.json.8.0.0.nupkg.sha512",
     "C:\\Users\\OPERADORGPS\\.nuget\\packages\\system.threading.channels\\7.0.0\\system.threading.channels.7.0.0.nupkg.sha512",
-    "C:\\Users\\OPERADORGPS\\.nuget\\packages\\system.threading.tasks.dataflow\\7.0.0\\system.threading.tasks.dataflow.7.0.0.nupkg.sha512"
+    "C:\\Users\\OPERADORGPS\\.nuget\\packages\\system.threading.tasks.dataflow\\7.0.0\\system.threading.tasks.dataflow.7.0.0.nupkg.sha512",
+    "C:\\Users\\OPERADORGPS\\.nuget\\packages\\tailwind.extensions.aspnetcore\\1.0.0\\tailwind.extensions.aspnetcore.1.0.0.nupkg.sha512"
   ],
   "logs": []
 }

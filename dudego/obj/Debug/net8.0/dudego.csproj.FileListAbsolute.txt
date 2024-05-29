@@ -227,3 +227,6 @@ C:\Users\OPERADORGPS\source\repos\dudego\dudego\bin\Debug\net8.0\ru\Microsoft.Co
 C:\Users\OPERADORGPS\source\repos\dudego\dudego\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Scripting.resources.dll
 C:\Users\OPERADORGPS\source\repos\dudego\dudego\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Scripting.resources.dll
 C:\Users\OPERADORGPS\source\repos\dudego\dudego\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\OPERADORGPS\source\repos\dudego\dudego\obj\Debug\net8.0\dudego.sourcelink.json
+C:\Users\OPERADORGPS\source\repos\dudego\dudego\bin\Debug\net8.0\Microsoft.AspNetCore.SpaServices.Extensions.dll
+C:\Users\OPERADORGPS\source\repos\dudego\dudego\bin\Debug\net8.0\Tailwind.Extensions.AspNetCore.dll

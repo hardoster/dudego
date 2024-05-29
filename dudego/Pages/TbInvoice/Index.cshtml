@@ -1,0 +1,54 @@
+﻿@page
+@model dudego.Pages.TbInvoice.IndexModel
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-page="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.TbInvoice[0].InvoiceNumber)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TbInvoice[0].IdBranchNavigation)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TbInvoice[0].IdCustomerNavigation)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TbInvoice[0].IdSalespersonNavigation)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.TbInvoice) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.InvoiceNumber)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IdBranchNavigation.IdBranch)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IdCustomerNavigation.IdCustomer)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IdSalespersonNavigation.IdSalesperson)
+            </td>
+            <td>
+                <a asp-page="./Edit" asp-route-id="@item.IdInvoice">Edit</a> |
+                <a asp-page="./Details" asp-route-id="@item.IdInvoice">Details</a> |
+                <a asp-page="./Delete" asp-route-id="@item.IdInvoice">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

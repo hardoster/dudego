@@ -7,7 +7,41 @@
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/dudego.styles.css" asp-append-version="true" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-Kf9X+3jU4Px5jo1vA0TqQ4/FmvlsMSMev0RIpt+txg7fMzjIet4B0lZc1/JwOYaxMNej8BmPfWgFJZ3eo8UMgw==" crossorigin="anonymous" />
+    <script src="https://kit.fontawesome.com/abdd954b71.js" crossorigin="anonymous"></script>
+
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'copper': {
+                            '50': '#fff2eb',
+                            '100': '#fedbc7',
+                            '200': '#fdb48a',
+                            '300': '#fc8c4d',
+                            '400': '#fb7224',
+                            '500': '#f5600b',
+                            '600': '#d95206',
+                            '700': '#b44709',
+                            '800': '#923e0e',
+                            '900': '#78350f',
+                            '950': '#451b03',
+                        },
+
+                    }
+                }
+            }
+        }
+    </script>
+    <link rel="stylesheet" href="https://cdn.datatables.net/2.0.3/css/dataTables.dataTables.css" />
+
 </head>
+
+
 <body>
     <header>
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
@@ -42,10 +76,15 @@
         </div>
     </footer>
 
+
+    <script src="https://cdn.tailwindcss.com"></script>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdn.datatables.net/1.11.5/js/jquery.dataTables.min.js"></script>
+    <!--DATATABLE JS-->
+    <script src="https://cdn.datatables.net/2.0.3/js/dataTables.js"></script>
     @await RenderSectionAsync("Scripts", required: false)
 </body>
 </html>

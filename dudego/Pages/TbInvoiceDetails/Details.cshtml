@@ -1,0 +1,49 @@
+﻿@page
+@model dudego.Pages.TbInvoiceDetails.DetailsModel
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>TbInvoiceDetail</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.TbInvoiceDetail.DayDuration)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.TbInvoiceDetail.DayDuration)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.TbInvoiceDetail.PriceDay)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.TbInvoiceDetail.PriceDay)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.TbInvoiceDetail.RentalDeposit)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.TbInvoiceDetail.RentalDeposit)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.TbInvoiceDetail.IdCarNavigation)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.TbInvoiceDetail.IdCarNavigation.IdCar)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.TbInvoiceDetail.IdInvoiceNavigation)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.TbInvoiceDetail.IdInvoiceNavigation.IdInvoice)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-page="./Edit" asp-route-id="@Model.TbInvoiceDetail.IdInvoiceDetails">Edit</a> |
+    <a asp-page="./Index">Back to List</a>
+</div>

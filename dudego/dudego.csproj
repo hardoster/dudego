@@ -19,6 +19,7 @@
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="8.0.2" />
     <PackageReference Include="Oracle.EntityFrameworkCore" Version="8.23.40" />
     <PackageReference Include="Oracle.ManagedDataAccess.Core" Version="23.4.0" />
+    <PackageReference Include="Tailwind.Extensions.AspNetCore" Version="1.0.0" />
   </ItemGroup>
 
 </Project>
