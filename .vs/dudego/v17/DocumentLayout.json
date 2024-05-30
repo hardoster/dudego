@@ -1,13 +1,21 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\OPERADORGPS\\source\\repos\\dudego\\",
+  "WorkspaceRootPath": "C:\\Users\\gperl\\source\\repos\\dudego\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FA4F05DD-EE49-42A4-8591-008ADAB05850}|dudego\\dudego.csproj|c:\\users\\operadorgps\\source\\repos\\dudego\\dudego\\pages\\tbinvoicedetails\\create.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{FA4F05DD-EE49-42A4-8591-008ADAB05850}|dudego\\dudego.csproj|c:\\users\\gperl\\source\\repos\\dudego\\dudego\\pages\\tbinvoicedetails\\create.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FA4F05DD-EE49-42A4-8591-008ADAB05850}|dudego\\dudego.csproj|solutionrelative:dudego\\pages\\tbinvoicedetails\\create.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FA4F05DD-EE49-42A4-8591-008ADAB05850}|dudego\\dudego.csproj|c:\\users\\operadorgps\\source\\repos\\dudego\\dudego\\pages\\tbinvoicedetails\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{FA4F05DD-EE49-42A4-8591-008ADAB05850}|dudego\\dudego.csproj|c:\\users\\gperl\\source\\repos\\dudego\\dudego\\wwwroot\\js\\datatables.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{FA4F05DD-EE49-42A4-8591-008ADAB05850}|dudego\\dudego.csproj|solutionrelative:dudego\\wwwroot\\js\\datatables.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA4F05DD-EE49-42A4-8591-008ADAB05850}|dudego\\dudego.csproj|c:\\users\\gperl\\source\\repos\\dudego\\dudego\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FA4F05DD-EE49-42A4-8591-008ADAB05850}|dudego\\dudego.csproj|solutionrelative:dudego\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA4F05DD-EE49-42A4-8591-008ADAB05850}|dudego\\dudego.csproj|c:\\users\\gperl\\source\\repos\\dudego\\dudego\\pages\\tbinvoicedetails\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{FA4F05DD-EE49-42A4-8591-008ADAB05850}|dudego\\dudego.csproj|solutionrelative:dudego\\pages\\tbinvoicedetails\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
@@ -24,24 +32,50 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Create.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\OPERADORGPS\\source\\repos\\dudego\\dudego\\Pages\\TbInvoiceDetails\\Create.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\gperl\\source\\repos\\dudego\\dudego\\Pages\\TbInvoiceDetails\\Create.cshtml.cs",
               "RelativeDocumentMoniker": "dudego\\Pages\\TbInvoiceDetails\\Create.cshtml.cs",
-              "ToolTip": "C:\\Users\\OPERADORGPS\\source\\repos\\dudego\\dudego\\Pages\\TbInvoiceDetails\\Create.cshtml.cs",
+              "ToolTip": "C:\\Users\\gperl\\source\\repos\\dudego\\dudego\\Pages\\TbInvoiceDetails\\Create.cshtml.cs",
               "RelativeToolTip": "dudego\\Pages\\TbInvoiceDetails\\Create.cshtml.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAABsAAAAsAAAA",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAACYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-29T20:37:02.982Z",
+              "WhenOpened": "2024-05-30T03:07:19.03Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "datatables.js",
+              "DocumentMoniker": "C:\\Users\\gperl\\source\\repos\\dudego\\dudego\\wwwroot\\js\\datatables.js",
+              "RelativeDocumentMoniker": "dudego\\wwwroot\\js\\datatables.js",
+              "ToolTip": "C:\\Users\\gperl\\source\\repos\\dudego\\dudego\\wwwroot\\js\\datatables.js",
+              "RelativeToolTip": "dudego\\wwwroot\\js\\datatables.js",
+              "ViewState": "AQIAACIAAAAAZILJJ1n1vzYAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-05-30T02:40:47.064Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\gperl\\source\\repos\\dudego\\dudego\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "dudego\\Pages\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\gperl\\source\\repos\\dudego\\dudego\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "dudego\\Pages\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAACQAAAAAAAAAAAAAAFMAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-30T02:34:52.102Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\OPERADORGPS\\source\\repos\\dudego\\dudego\\Pages\\TbInvoiceDetails\\Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\gperl\\source\\repos\\dudego\\dudego\\Pages\\TbInvoiceDetails\\Create.cshtml",
               "RelativeDocumentMoniker": "dudego\\Pages\\TbInvoiceDetails\\Create.cshtml",
-              "ToolTip": "C:\\Users\\OPERADORGPS\\source\\repos\\dudego\\dudego\\Pages\\TbInvoiceDetails\\Create.cshtml",
+              "ToolTip": "C:\\Users\\gperl\\source\\repos\\dudego\\dudego\\Pages\\TbInvoiceDetails\\Create.cshtml",
               "RelativeToolTip": "dudego\\Pages\\TbInvoiceDetails\\Create.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
+              "ViewState": "AQIAAAcAAAAAAAAAAAASwBUAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-05-29T20:36:04.611Z",
               "EditorCaption": ""

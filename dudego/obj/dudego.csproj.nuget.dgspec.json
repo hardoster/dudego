@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\OPERADORGPS\\source\\repos\\dudego\\dudego\\dudego.csproj": {}
+    "C:\\Users\\gperl\\source\\repos\\dudego\\dudego\\dudego.csproj": {}
   },
   "projects": {
-    "C:\\Users\\OPERADORGPS\\source\\repos\\dudego\\dudego\\dudego.csproj": {
+    "C:\\Users\\gperl\\source\\repos\\dudego\\dudego\\dudego.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\OPERADORGPS\\source\\repos\\dudego\\dudego\\dudego.csproj",
+        "projectUniqueName": "C:\\Users\\gperl\\source\\repos\\dudego\\dudego\\dudego.csproj",
         "projectName": "dudego",
-        "projectPath": "C:\\Users\\OPERADORGPS\\source\\repos\\dudego\\dudego\\dudego.csproj",
-        "packagesPath": "C:\\Users\\OPERADORGPS\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\OPERADORGPS\\source\\repos\\dudego\\dudego\\obj\\",
+        "projectPath": "C:\\Users\\gperl\\source\\repos\\dudego\\dudego\\dudego.csproj",
+        "packagesPath": "C:\\Users\\gperl\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\gperl\\source\\repos\\dudego\\dudego\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\OPERADORGPS\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\gperl\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -52,19 +48,19 @@
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[8.0.5, )"
+              "version": "[8.0.6, )"
             },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[8.0.5, )"
+              "version": "[8.0.6, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[8.0.4, )"
+              "version": "[8.0.6, )"
             },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
@@ -77,10 +73,6 @@
             "Oracle.ManagedDataAccess.Core": {
               "target": "Package",
               "version": "[23.4.0, )"
-            },
-            "Tailwind.Extensions.AspNetCore": {
-              "target": "Package",
-              "version": "[1.0.0, )"
             }
           },
           "imports": [
@@ -102,7 +94,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

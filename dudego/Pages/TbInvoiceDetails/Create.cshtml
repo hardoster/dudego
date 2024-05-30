@@ -12,7 +12,7 @@
 
 <div class="flex">
     <div class="flex flex-row">
-        <form method="post">
+        <form id="invoiceForm" method="post">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <div class="form-group">
                 <label asp-for="TbInvoiceDetail.IdInvoice" class="control-label"></label>
@@ -20,27 +20,30 @@
             </div>
             <div class="form-group">
                 <label asp-for="TbInvoiceDetail.IdCar" class="control-label"></label>
-                <select asp-for="TbInvoiceDetail.IdCar" class ="form-control" asp-items="ViewBag.IdCar"></select>
+                <select id="IdCar" name="IdCar" class="form-control" asp-items="@((SelectList)ViewData["IdCar"])"></select>
             </div>
             <div class="form-group">
                 <label asp-for="TbInvoiceDetail.DayDuration" class="control-label"></label>
-                <input asp-for="TbInvoiceDetail.DayDuration" class="form-control" />
+                <input id="DayDuration" name="DayDuration" asp-for="TbInvoiceDetail.DayDuration" class="form-control" />
                 <span asp-validation-for="TbInvoiceDetail.DayDuration" class="text-danger"></span>
             </div>
             <div class="form-group">
                 <label asp-for="TbInvoiceDetail.PriceDay" class="control-label"></label>
-                <input asp-for="TbInvoiceDetail.PriceDay" class="form-control" />
+                <input id="PriceDay" name="PriceDay" asp-for="TbInvoiceDetail.PriceDay" class="form-control" />
                 <span asp-validation-for="TbInvoiceDetail.PriceDay" class="text-danger"></span>
             </div>
             <div class="form-group">
                 <label asp-for="TbInvoiceDetail.RentalDeposit" class="control-label"></label>
-                <input asp-for="TbInvoiceDetail.RentalDeposit" class="form-control" />
+                <input id="RentalDeposit" name="RentalDeposit" asp-for="TbInvoiceDetail.RentalDeposit" class="form-control" />
                 <span asp-validation-for="TbInvoiceDetail.RentalDeposit" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <input type="submit" value="Create" class="btn btn-primary" />
+                <button id="submit-button">Create</button>
+
+                <input type="button" id="addButton" value="Agregar" class="btn btn-primary" />
             </div>
         </form>
+
     </div>
 
 
@@ -49,7 +52,7 @@
 
 
     <div class="relative overflow-x-auto shadow-md sm:rounded-lg">
-        <table class="w-full text-sm text-left rtl:text-right text-gray-500 ">
+        <table id="tbDetails" class="w-full text-sm text-left rtl:text-right text-gray-500 ">
             <thead class="text-xs text-gray-700 uppercase ">
                 <tr>
                     <th scope="col" class="px-6 py-3 bg-gray-50 ">
@@ -70,76 +73,8 @@
                 </tr>
             </thead>
             <tbody>
-                <tr class="border-b border-gray-200 ">
-                    <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap bg-gray-50">
-                        Apple MacBook Pro 17"
-                    </th>
-                    <td class="px-6 py-4">
-                        Silver
-                    </td>
-                    <td class="px-6 py-4 bg-gray-50 ">
-                        Laptop
-                    </td>
-                    <td class="px-6 py-4">
-                        $2999
-                    </td>
-                </tr>
-                <tr class="border-b border-gray-200 ">
-                    <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap bg-gray-50">
-                        Microsoft Surface Pro
-                    </th>
-                    <td class="px-6 py-4">
-                        White
-                    </td>
-                    <td class="px-6 py-4 bg-gray-50 ">
-                        Laptop PC
-                    </td>
-                    <td class="px-6 py-4">
-                        $1999
-                    </td>
-                </tr>
-                <tr class="border-b border-gray-200 ">
-                    <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap bg-gray-50 ">
-                        Magic Mouse 2
-                    </th>
-                    <td class="px-6 py-4">
-                        Black
-                    </td>
-                    <td class="px-6 py-4 bg-gray-50">
-                        Accessories
-                    </td>
-                    <td class="px-6 py-4">
-                        $99
-                    </td>
-                </tr>
-                <tr class="border-b border-gray-200">
-                    <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap bg-gray-50 ">
-                        Google Pixel Phone
-                    </th>
-                    <td class="px-6 py-4">
-                        Gray
-                    </td>
-                    <td class="px-6 py-4 bg-gray-50 ">
-                        Phone
-                    </td>
-                    <td class="px-6 py-4">
-                        $799
-                    </td>
-                </tr>
-                <tr>
-                    <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap bg-gray-50 ">
-                        Apple Watch 5
-                    </th>
-                    <td class="px-6 py-4">
-                        Red
-                    </td>
-                    <td class="px-6 py-4 bg-gray-50 ">
-                        Wearables
-                    </td>
-                    <td class="px-6 py-4">
-                        $999
-                    </td>
-                </tr>
+           
+             
             </tbody>
         </table>
     </div>
@@ -150,5 +85,6 @@
 </div>
 
 @section Scripts {
+
     @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
 }

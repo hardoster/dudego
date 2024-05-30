@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("dudego")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7ea76de0a3d62ad664f9a92284921c65d9ffb7c5")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d256c6b3a086f895369c40258429593d98f902af")]
 [assembly: System.Reflection.AssemblyProductAttribute("dudego")]
 [assembly: System.Reflection.AssemblyTitleAttribute("dudego")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
